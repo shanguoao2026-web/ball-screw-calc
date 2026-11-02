@@ -1,0 +1,19 @@
+{
+  "name": "ball-screw-calc",
+  "version": "1.0.0",
+  "description": "Ball screw drive sizing command-line calculator",
+  "license": "MIT",
+  "author": "shanguoao2026-web",
+  "type": "module",
+  "bin": { "ball-screw-calc": "dist/cli.js" },
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "test": "npm run build && node test/cli.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.6.3"
+  }
+}
